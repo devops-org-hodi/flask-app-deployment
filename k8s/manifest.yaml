@@ -82,7 +82,7 @@ metadata:
   name: rs-svc
 spec:
   selector:
-    app: rs
+    key: rs
   ports:
   - port: 9090
     targetPort: 80
